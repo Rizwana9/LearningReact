@@ -36,6 +36,6 @@ jobs:
       - name: Installing surge
         run: npm install --global surge 
       - name: Deploying surge
-        run: surge ./ LearingReact.surge.sh --token $ {{secrets.Surge-token}}
+        run: surge ./ LearingReact.surge.sh --token $ {{secrets.Surge_Token}}
           echo Add other actions to build,
           echo test, and deploy your project.
